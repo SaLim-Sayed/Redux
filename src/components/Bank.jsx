@@ -8,8 +8,8 @@ function Bank() {
   return (
     <>
       <h1> Your Account Balance : {state}</h1>
-      <button onClick={() => dispatch(withdraw(100))}>withdraw</button>
-      <button onClick={() => dispatch(deposit(200))}>withdraw</button>
+      <button className="btn btn-outline-primary" onClick={() => dispatch(withdraw(100))}>withdraw</button>
+      <button className="btn btn-outline-info mx-2" onClick={() => dispatch(deposit(200))}>withdraw</button>
       
     </>
   );
